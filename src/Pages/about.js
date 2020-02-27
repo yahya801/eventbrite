@@ -4,69 +4,47 @@ export class about extends Component {
     render() {
         return (
             <div>
-                <header className="header">
+                <div className="about">
   <div className="container">
     <div className="row">
       <div className="col">
-        <div className="header_container d-flex flex-row align-items-center justify-content-start">
-          {/* Logo */}
-          <div className="logo_container">
-            <div className="logo">
-              <div>destino</div>
-              <div>travel agency</div>
-              <div className="logo_image">
-                <img src="images/logo.png" alt />
-              </div>
-            </div>
+        <div className="section_title text-center">
+          <h2>We are an award winning Agency</h2>
+          <div>take a look at our story</div>
+        </div>
+      </div>
+    </div>
+    <div className="row about_row">
+      <div className="col-lg-6 about_col order-lg-1 order-2">
+        <div className="about_content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            fringilla lectus nec diam auctor, ut fringilla diam sagittis.
+            Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit
+            consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus
+            convallis tempus eget sit amet metus. Sed finibus, magna at euismod
+            aliquet, enim justo vulputate lorem, sit amet elementum dolor eros
+            sollicitudin dui. Sed ac magna mauris. Nullam lectus odio, viverra
+            vel mi id, interdum imperdiet nulla.{" "}
+          </p>
+          <div className="button about_button">
+            <a href="#">Read More</a>
           </div>
-          {/* Main Navigation */}
-          <nav className="main_nav ml-auto">
-            <ul className="main_nav_list">
-              <li className="main_nav_item">
-                <a href="index.html">Home</a>
-              </li>
-              <li className="main_nav_item active">
-                <a href="#">About us</a>
-              </li>
-              <li className="main_nav_item">
-                <a href="offers.html">Offers</a>
-              </li>
-              <li className="main_nav_item">
-                <a href="news.html">News</a>
-              </li>
-              <li className="main_nav_item">
-                <a href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          {/* Search */}
-          <div className="search">
-            <form action="#" className="search_form">
-              <input
-                type="search"
-                name="search_input"
-                className="search_input ctrl_class"
-                required="required"
-                placeholder="Keyword"
-              />
-              <button
-                type="submit"
-                className="search_button ml-auto ctrl_class"
-              >
-                <img src="images/search.png" alt />
-              </button>
-            </form>
-          </div>
-          {/* Hamburger */}
-          <div className="hamburger ml-auto">
-            <i className="fa fa-bars" aria-hidden="true" />
-          </div>
+        </div>
+      </div>
+      <div className="col-lg-6 about_col order-lg-2 order-1">
+        <div className="about_image">
+          <img
+            src="images/about.jpg"
+            alt="https://unsplash.com/@sanfrancisco"
+          />
         </div>
       </div>
     </div>
   </div>
-</header>;
+</div>;
 
+                
             </div>
         )
     }

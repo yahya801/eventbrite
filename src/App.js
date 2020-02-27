@@ -13,14 +13,11 @@ export class App extends Component {
     return (
       <Router>
     <div className="App">
-<Route exact path = "/">
-  <Header/>
+     <Header/>
+      
+    <Route exact path="/one">
+  <About />
 </Route>
-      <Route exact path = "/about" >
-        <FindForm/>
-        </Route> 
-
-  
     </div>
     </Router>
   );

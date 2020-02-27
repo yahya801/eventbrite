@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from './Mainpage/header';
-import Home from './Mainpage/Home';
-import Findform from './Mainpage/Findform'
+
 import About from './Pages/about';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 

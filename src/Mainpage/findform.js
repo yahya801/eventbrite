@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 
-export class findform extends Component {
+export class Findform extends Component {
     render() {
         return (
             <div>
-               <div className="find">
+                {
+  /* Find Form */
+}
+<div className="find">
   {/* Image by https://unsplash.com/@garciasaldana_ */}
   <div
     className="find_background parallax-window"
@@ -77,11 +80,11 @@ export class findform extends Component {
       </div>
     </div>
   </div>
-</div>;
- 
+</div>
+
             </div>
         )
     }
 }
 
-export default findform
+export default Findform

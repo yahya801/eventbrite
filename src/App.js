@@ -8,13 +8,15 @@ import FindForm from './Mainpage/findform';
 export class App extends Component {
   render() {
     return (
+      <Router>
     <div className="App">
-      <Header/>
-      <Menu/>
-      <Home/>
-      <FindForm/>
-  
+     <Header/>
+      
+    <Route exact path="/one">
+  <About />
+</Route>
     </div>
+    </Router>
   );
 }
 }
